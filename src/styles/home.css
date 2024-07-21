@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.welcome-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 590px;
+}
+.text {
+    width: 550px;
+    color: grey;
+}

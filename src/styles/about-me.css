@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+  }
+
+.about-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 590px;
+    margin-left: 20px;
+}
+
+.headshot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Optional: Add margin to the left if needed */
+}
