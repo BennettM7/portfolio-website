@@ -5,25 +5,27 @@ import AccordionSummary from "@mui/material/AccordionSummary"
 import Typography from "@mui/material/Typography"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import Fade from "@mui/material/Fade"
+import "../styles/courses.css"
 
 
 export default function Course({ name, description }) {
     const [expanded, setExpanded] = React.useState(false);
 
     const handleExpansion = () => {
-        setExpanded(( prevExpanded) => !prevExpanded);
+        setExpanded(( prevExpanded ) => !prevExpanded);
     };
 
     return(
-        <div>
+        <div className="course-accordion">
             <Accordion
                 expanded={expanded}
-                onChange={handleExpansion}
-                slots={{transition: Fade}}
-                slotProps={{ trasition: { timeout: 400 }}}
+                onChange={ handleExpansion }
                 sx={{
                     '& .MuiAccordion-region': { height: expanded ? 'auto' : 0 },
                     '& .MuiAccordionDetails-root': { display: expanded ? 'block' : 'none' },
+                    backgroundColor: expanded ? '#6DC5D1' : '#E88D67',
+                    transition: 'background-color 0.4s ease-in-out',
+                    boxShadow: 10,
                 }}
             >
                 <AccordionSummary
@@ -31,10 +33,14 @@ export default function Course({ name, description }) {
                     aria-controls="panel1-controls"
                     id="panel1-Header"
                 >
-                    <Typography>{ name }</Typography>
+                    <Typography variant='subtitle1' color="#F3F7EC">
+                        { name }
+                    </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                    <Typography>{ description }</Typography>
+                    <Fade in={expanded} timeout={650}>
+                        <Typography color="#F3F7EC">{ description }</Typography>
+                    </Fade>
                 </AccordionDetails>
             </Accordion>
         </div>

@@ -40,4 +40,13 @@
 h1 {
   font-family: "Inter";
   font-size: 60px;
+  color: #F3F7EC;
+}
+
+body {
+  background-color: #010e20;
+}
+
+p {
+  color: #F3F7EC;
 }
