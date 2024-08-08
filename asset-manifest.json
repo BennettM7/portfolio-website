@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfoilo-webiste/static/css/main.8d2af29b.css",
+    "main.js": "/portfoilo-webiste/static/js/main.653780e6.js",
+    "static/js/453.2ddb282f.chunk.js": "/portfoilo-webiste/static/js/453.2ddb282f.chunk.js",
+    "static/media/headshot.jpg": "/portfoilo-webiste/static/media/headshot.a4530e9ddab057e94a7f.jpg",
+    "static/media/Sally Student My Org Page.png": "/portfoilo-webiste/static/media/Sally Student My Org Page.543244fc4beb4c7357d7.png",
+    "static/media/twitter-logo.png": "/portfoilo-webiste/static/media/twitter-logo.06e236c665e75ddf3ffe.png",
+    "index.html": "/portfoilo-webiste/index.html",
+    "main.8d2af29b.css.map": "/portfoilo-webiste/static/css/main.8d2af29b.css.map",
+    "main.653780e6.js.map": "/portfoilo-webiste/static/js/main.653780e6.js.map",
+    "453.2ddb282f.chunk.js.map": "/portfoilo-webiste/static/js/453.2ddb282f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d2af29b.css",
+    "static/js/main.653780e6.js"
+  ]
+}
