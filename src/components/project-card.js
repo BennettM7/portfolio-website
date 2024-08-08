@@ -12,9 +12,11 @@ export default function ProjectCard({image, img_height, img_width, title, short_
         <div>
             <Card 
                 sx={{
-                    maxWidth: 500,
+                    width: 500,
+                    height: 450,
                     backgroundColor: '#E88D67', // Change the background color
                     color: 'white', // Change the text color
+                    boxShadow: '0px 5px 25px rgba(255, 255, 255, 0.6)',
                 }}
             >
                     <CardHeader title={title} />
@@ -23,7 +25,11 @@ export default function ProjectCard({image, img_height, img_width, title, short_
                         height={img_height}
                         image={image}
                     />
-                    <CardContent>
+                    <CardContent
+                        sx={{
+                            height: 100,
+                        }}
+                    >
                         <Typography variant="body2" color="white">{short_desc}</Typography>
                     </CardContent>
                     <CardActions>

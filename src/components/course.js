@@ -25,7 +25,7 @@ export default function Course({ name, description }) {
                     '& .MuiAccordionDetails-root': { display: expanded ? 'block' : 'none' },
                     backgroundColor: expanded ? '#6DC5D1' : '#E88D67',
                     transition: 'background-color 0.4s ease-in-out',
-                    boxShadow: 10,
+                    boxShadow: '0px 5px 20px rgba(255, 255, 255, 0.6)',
                 }}
             >
                 <AccordionSummary

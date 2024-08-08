@@ -31,7 +31,7 @@ export default function AboutMe() {
                 </div>
             </div>
             <div className='headshot'>
-                <img src={headshot} alt="Headshot" height={750} width={500} />
+                <img src={headshot} alt="Headshot" height={750} width={500} className="headshot-image" />
             </div>
         </div>
     );

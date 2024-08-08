@@ -13,9 +13,9 @@ export default function Projects(){
     `
 
     const mock_twitter_short_desc = `
-        For a final project in my CSSG Education Team final project I was tasked with creating a mock twitter webiste.
-        Utilizing NextJS and Supabase I was able to create a minimal mock twitter where people were able to interact with the website
-        in a way that the popular platform X formally known as twitter is used.
+        For a final project in my CSSG Education Team final project I was tasked with creating a mock Twitter webiste.
+        Utilizing NextJS and Supabase I was able to create a minimal mock Twitter where people were able to interact with the website
+        in a way that the popular platform X formally known as Twitter is used.
     `
     return(
         <div>
