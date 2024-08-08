@@ -16,6 +16,9 @@ export default function Navbar () {
                 <NavLink to="/courses" activeClassName="active" className="nav-link">
                     Courses
                 </NavLink>
+                <NavLink to="/projects" activeClassName="active" className="nav-link">
+                    Projects
+                </NavLink>
             </div>
         </div>
     )
