@@ -9,7 +9,7 @@ import Projects from './pages/projects';
 
 function App() {
     return (
-        <Router>
+        <Router basename='process.env.PUBLIC_URL'>
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
