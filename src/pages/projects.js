@@ -17,6 +17,8 @@ export default function Projects(){
         Utilizing NextJS and Supabase I was able to create a minimal mock Twitter where people were able to interact with the website
         in a way that the popular platform X formally known as Twitter is used.
     `
+
+    const basename = "/portfolio-website/projects"
     return(
         <div>
             <div className="title">
@@ -29,7 +31,7 @@ export default function Projects(){
                 </p>
             </div>
             <div className="projects-container">
-                <ProjectCard image={lil_logo} img_height="200" title="CSXL Organization Management" short_desc={csxl_short_desc} />
+                <ProjectCard image={lil_logo} img_height="200" title="CSXL Organization Management" short_desc={csxl_short_desc} read_more_link={basename + "/csxl-organization-management"}/>
                 <ProjectCard image={twitter_logo} img_height="200" title="Mock Twitter" short_desc={mock_twitter_short_desc} />
             </div>
         </div>

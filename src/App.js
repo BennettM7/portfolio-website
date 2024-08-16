@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import './App.css';
 import Courses from './pages/courses';
 import Projects from './pages/projects';
+import CSXLProject from './pages/csxl-project';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                     <Route exact path="/about-me" element={<AboutMe />} />
                     <Route exact path="/courses" element={<Courses />} />
                     <Route exact path="/projects" element={<Projects /> } />
+                    <Route exact path="/projects/csxl-organization-management" element={<CSXLProject />} />
             </Routes>
         </Router>
     )
