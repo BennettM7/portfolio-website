@@ -6,6 +6,8 @@ import CardMedia  from "@mui/material/CardMedia";
 import CardActions from "@mui/material/CardActions";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import { NavLink } from "react-router-dom";
+import "../styles/projects.css"
 
 export default function ProjectCard({image, img_height, img_width, title, short_desc, read_more_link}) {
     return(
@@ -33,7 +35,7 @@ export default function ProjectCard({image, img_height, img_width, title, short_
                         <Typography variant="body2" color="white">{short_desc}</Typography>
                     </CardContent>
                     <CardActions>
-                        <Button sx={{ color:"white" }} size="Small" href={read_more_link}>Read More</Button>
+                        <NavLink to={read_more_link} className={"project-nav-link"}>Read More</NavLink>
                     </CardActions>
             </Card>
         </div>

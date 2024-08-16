@@ -31,8 +31,8 @@ export default function Projects(){
                 </p>
             </div>
             <div className="projects-container">
-                <ProjectCard image={lil_logo} img_height="200" title="CSXL Organization Management" short_desc={csxl_short_desc} read_more_link={"/portfolio-website/projects/csxl-organization-management"}/>
-                <ProjectCard image={twitter_logo} img_height="200" title="Mock Twitter" short_desc={mock_twitter_short_desc} />
+                <ProjectCard image={lil_logo} img_height="200" title="CSXL Organization Management" short_desc={csxl_short_desc} read_more_link={"/projects/csxl-organization-management"}/>
+                <ProjectCard image={twitter_logo} img_height="200" title="Mock Twitter" short_desc={mock_twitter_short_desc} read_more_link={"/projects/mock-twitter"} />
             </div>
         </div>
     )
