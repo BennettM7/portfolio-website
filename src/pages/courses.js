@@ -61,6 +61,20 @@ export default function Courses() {
         production environment concerns, automation, code review, and so on, with an emphasis on today’s best practices and tools.`,
     ];
 
+    const notable_projects = [
+        'Utilized Pandas to display data.',
+        'Creating a BST with Java.',
+        'Creating a shell with C.',
+        'Created a proof potfolio where me and a group of students used different methods to mathimatically prove some algorithim works.',
+        'Created an Akari game with Java.',
+        'Created a Heapify function with MIPS.',
+        'Utilized SQL injections to create different views for databases.',
+        'Emmulated a cross-site scripting attack on a fake social media website.',
+        'Created a 2D graphics generator allowing me to create 2D graphics at an efficent rate.',
+        'Utilized software to task a robot with getting from point A to point B while avoiding objects in its way.',
+        'Created a Organization Member Management system for the CSXL website (more to see on projects page).',
+    ];
+
     return(
         <div>
             <div className="title">
@@ -73,7 +87,7 @@ export default function Courses() {
             </div>
             <div className="course-container">
                 {class_name.map((item, index) => (
-                    <Course key={index} name={item} description={class_descriptions[index]}/>
+                    <Course key={index} name={item} description={class_descriptions[index]} project={notable_projects[index]}/>
                 ))}
             </div>
         </div>

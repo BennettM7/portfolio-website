@@ -8,7 +8,7 @@ import Fade from "@mui/material/Fade"
 import "../styles/courses.css"
 
 
-export default function Course({ name, description }) {
+export default function Course({ name, description, project }) {
     const [expanded, setExpanded] = React.useState(false);
 
     const handleExpansion = () => {
@@ -39,7 +39,14 @@ export default function Course({ name, description }) {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Fade in={expanded} timeout={650}>
-                        <Typography color="#F3F7EC">{ description }</Typography>
+                        <Typography color="#F3F7EC" variant="body2">{ description }</Typography>
+                    </Fade>
+                    <Fade in={expanded} timeout={650}>
+                        <Typography color="#F3F7EC" className="notable-project" variant="subtitle1">
+                                Notable Project: 
+                                <br /> 
+                                <Typography color="#F3F7EC" variant="body2" ><li>{project}</li></Typography>
+                        </Typography>
                     </Fade>
                 </AccordionDetails>
             </Accordion>
