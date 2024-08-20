@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.53158b73.css",
-    "main.js": "/portfolio-website/static/js/main.d9404b0a.js",
+    "main.js": "/portfolio-website/static/js/main.23dee097.js",
     "static/js/453.2ddb282f.chunk.js": "/portfolio-website/static/js/453.2ddb282f.chunk.js",
     "static/media/headshot.jpg": "/portfolio-website/static/media/headshot.a4530e9ddab057e94a7f.jpg",
     "static/media/Larry Leader Organization Details.png": "/portfolio-website/static/media/Larry Leader Organization Details.735ed23f72b1a1bd2650.png",
@@ -10,11 +10,11 @@
     "static/media/twitter-logo.png": "/portfolio-website/static/media/twitter-logo.06e236c665e75ddf3ffe.png",
     "index.html": "/portfolio-website/index.html",
     "main.53158b73.css.map": "/portfolio-website/static/css/main.53158b73.css.map",
-    "main.d9404b0a.js.map": "/portfolio-website/static/js/main.d9404b0a.js.map",
+    "main.23dee097.js.map": "/portfolio-website/static/js/main.23dee097.js.map",
     "453.2ddb282f.chunk.js.map": "/portfolio-website/static/js/453.2ddb282f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53158b73.css",
-    "static/js/main.d9404b0a.js"
+    "static/js/main.23dee097.js"
   ]
 }
