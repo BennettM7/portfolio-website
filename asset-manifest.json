@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.62f00364.css",
-    "main.js": "/portfolio-website/static/js/main.8d748d2b.js",
+    "main.css": "/portfolio-website/static/css/main.07c3fedd.css",
+    "main.js": "/portfolio-website/static/js/main.2fa15592.js",
     "static/js/453.2ddb282f.chunk.js": "/portfolio-website/static/js/453.2ddb282f.chunk.js",
     "static/media/headshot.jpg": "/portfolio-website/static/media/headshot.a4530e9ddab057e94a7f.jpg",
     "static/media/Database_Tables.png": "/portfolio-website/static/media/Database_Tables.fb6d8fe70349726c245b.png",
+    "static/media/Bennett_Mangums_Portfolio.png": "/portfolio-website/static/media/Bennett_Mangums_Portfolio.0474a4627b9c68d31b83.png",
     "static/media/Larry Leader Organization Details.png": "/portfolio-website/static/media/Larry Leader Organization Details.735ed23f72b1a1bd2650.png",
     "static/media/Sally Student My Org Page.png": "/portfolio-website/static/media/Sally Student My Org Page.543244fc4beb4c7357d7.png",
     "static/media/MT_Profile_Page.png": "/portfolio-website/static/media/MT_Profile_Page.b12844a5396db2d75aaa.png",
@@ -16,12 +17,12 @@
     "static/media/MT-Login.png": "/portfolio-website/static/media/MT-Login.471064e576d51b564a06.png",
     "static/media/twitter-logo.png": "/portfolio-website/static/media/twitter-logo.06e236c665e75ddf3ffe.png",
     "index.html": "/portfolio-website/index.html",
-    "main.62f00364.css.map": "/portfolio-website/static/css/main.62f00364.css.map",
-    "main.8d748d2b.js.map": "/portfolio-website/static/js/main.8d748d2b.js.map",
+    "main.07c3fedd.css.map": "/portfolio-website/static/css/main.07c3fedd.css.map",
+    "main.2fa15592.js.map": "/portfolio-website/static/js/main.2fa15592.js.map",
     "453.2ddb282f.chunk.js.map": "/portfolio-website/static/js/453.2ddb282f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62f00364.css",
-    "static/js/main.8d748d2b.js"
+    "static/css/main.07c3fedd.css",
+    "static/js/main.2fa15592.js"
   ]
 }
