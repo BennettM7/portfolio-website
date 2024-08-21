@@ -31,7 +31,7 @@ export default function MockTwitter(){
                         While it's still a rough version, Textagram serves as a solid foundation for further development, demonstrating the core ideas and functionality envisioned for the platform.
                     </Typography>
                 </Typography>
-                <img src={HomePage} width={img_width} height={img_height} />
+                <img src={HomePage} alt="Picture of Home Page" width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
                     Home Page
                     <br />
@@ -41,7 +41,7 @@ export default function MockTwitter(){
                         This page sets the tone for the app, ensuring users can easily navigate to their next steps with clear options, making the onboarding process smooth and user-friendly.
                     </Typography>
                 </Typography>
-                <img src={LoginPage} width={img_width} height={img_height} />
+                <img src={LoginPage} alt="Picture of Login Page" width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
                     Login Page
                     <br />
@@ -51,7 +51,7 @@ export default function MockTwitter(){
                         This page is designed to be secure, encouraging users to trust the platform with their information while providing a seamless experience for accessing their Textagram accounts.
                     </Typography>
                 </Typography>
-                <img src={FeedPage} width={img_width} height={img_height} />
+                <img src={FeedPage} alt="Picture of Feed Page" width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
                     Feed Page
                     <br />
@@ -61,7 +61,7 @@ export default function MockTwitter(){
                         It is designed to keep users engaged with diverse content and discover new ideas and perspectives.
                     </Typography>
                 </Typography>
-                <img src={ProfilePage} width={img_width} height={img_height} />
+                <img src={ProfilePage} alt="Picture of Profile Page" width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
                     Profile Page
                     <br />
@@ -71,7 +71,7 @@ export default function MockTwitter(){
                         The Profile Page is a hub for users to manage their presence on Textagram.
                     </Typography>
                 </Typography>
-                <img src={EditProfilePage} width={img_width} height={img_height} />
+                <img src={EditProfilePage} alt="Picture of Edit Profile Page" width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
                     Edit Profile Page
                     <br />
@@ -81,7 +81,7 @@ export default function MockTwitter(){
                         With its straightforward design, the Edit Profile Page ensures users can easily manage their profile details and keep their information up to date.
                     </Typography>
                 </Typography>
-                <img src={CreatePostPage} width={img_width} height={img_height} />
+                <img src={CreatePostPage} alt="Picture of Create Post Page" width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
                     Create Post Page
                     <br />
@@ -91,7 +91,7 @@ export default function MockTwitter(){
                         This page emphasizes ease of use, encouraging users to contribute content regularly and engage with others on the platform.
                     </Typography>
                 </Typography>
-                <img src={DatabaseTables} width={1500} />
+                <img src={DatabaseTables} alt="Picture of Database Tables" width={1500} />
                 <Typography variant='h6' sx={{color: 'white'}}>
                     Database Tables
                     <br />
