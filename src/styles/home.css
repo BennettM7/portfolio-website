@@ -1,15 +1,24 @@
-.container {
+.title-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
 }
 
 .welcome-container {
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 300px;
+}
+
+.title-description-container {
+    display: flex;
+    flex-direction: column;
     width: 590px;
 }
+
 .text {
     width: 550px;
     color: grey;
