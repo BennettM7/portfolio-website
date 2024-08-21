@@ -6,6 +6,7 @@ import './App.css';
 import Courses from './pages/courses';
 import Projects from './pages/projects';
 import CSXLProject from './pages/csxl-project';
+import MockTwitter from './pages/mock-twitter';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                     <Route exact path="/courses" element={<Courses />} />
                     <Route exact path="/projects" element={<Projects /> } />
                     <Route exact path="/projects/csxl-organization-management" element={<CSXLProject />} />
+                    <Route exact path="/projects/mock-twitter" element={<MockTwitter />} />
             </Routes>
         </Router>
     )
