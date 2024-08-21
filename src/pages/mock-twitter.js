@@ -23,7 +23,7 @@ export default function MockTwitter(){
             </div>
             <div className="article-div">
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Intro:</b>
+                    Intro:
                     <br />
                     <Typography variant='body1'>
                         I created Textagram as a project for the CSSG (Computer Science + Social Good) Education Team, where we were tasked with building a mock Twitter-like platform in just two weeks. 
@@ -33,7 +33,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={HomePage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Home Page:</b>
+                    Home Page:
                     <br />
                     <Typography variant='body1'>
                         The Home Page of Textagram serves as the welcoming gateway for users. 
@@ -43,7 +43,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={LoginPage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Login Page:</b>
+                    Login Page:
                     <br />
                     <Typography variant='body1'>
                         On the Login Page, users can either log in to their existing accounts or sign up for a new one. 
@@ -53,7 +53,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={FeedPage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Feed Page</b>
+                    Feed Page
                     <br />
                     <Typography variant='body1'>
                         The Feed Page is where users can explore the latest posts made by others on Textagram. 
@@ -63,7 +63,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={ProfilePage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Profile Page</b>
+                    Profile Page
                     <br />
                     <Typography variant='body1'>
                         The Profile Page is a personalized space for each user. Here, users can view all the posts they've made, along with their username, website, and other personal details. 
@@ -73,7 +73,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={EditProfilePage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Edit Profile Page</b>
+                    Edit Profile Page
                     <br />
                     <Typography variant='body1'>
                         The Edit Profile Page allows users to customize their Textagram profiles by editing their username, name, and website. 
@@ -83,7 +83,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={CreatePostPage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Create Post Page</b>
+                    Create Post Page
                     <br />
                     <Typography variant='body1'>
                         The Create Post Page is where users can express themselves by creating new posts. 
@@ -93,7 +93,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={DatabaseTables} width={1500} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    <b>Database Tables</b>
+                    Database Tables
                     <br />
                     <Typography variant='body1'>
                         Textagram's backend is structured with four major database tables: Posts (top left), Profiles (middle right), Likes (middle left), and Followers (bottom right). 
