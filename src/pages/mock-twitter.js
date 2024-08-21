@@ -23,7 +23,7 @@ export default function MockTwitter(){
             </div>
             <div className="article-div">
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    Intro:
+                    Intro
                     <br />
                     <Typography variant='body1'>
                         I created Textagram as a project for the CSSG (Computer Science + Social Good) Education Team, where we were tasked with building a mock Twitter-like platform in just two weeks. 
@@ -33,7 +33,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={HomePage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    Home Page:
+                    Home Page
                     <br />
                     <Typography variant='body1'>
                         The Home Page of Textagram serves as the welcoming gateway for users. 
@@ -43,7 +43,7 @@ export default function MockTwitter(){
                 </Typography>
                 <img src={LoginPage} width={img_width} height={img_height} />
                 <Typography variant='h6' sx={{color: 'white'}}>
-                    Login Page:
+                    Login Page
                     <br />
                     <Typography variant='body1'>
                         On the Login Page, users can either log in to their existing accounts or sign up for a new one. 
