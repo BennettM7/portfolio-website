@@ -1,6 +1,6 @@
 import HomePagePhoto from "../photos/Bennett_Mangums_Portfolio.png"
 import Button from "@mui/material/Button";
-import Resume from "../photos/Resume.pdf"
+import Resume from "../photos/Bennett_Mangum_Resume_2024.pdf"
 import "../styles/home.css"
 export default function Home() {
     const onDownload = () => {
