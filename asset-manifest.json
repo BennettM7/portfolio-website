@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.61ca3a95.css",
-    "main.js": "/portfolio-website/static/js/main.22b95985.js",
+    "main.js": "/portfolio-website/static/js/main.52963194.js",
     "static/js/453.2ddb282f.chunk.js": "/portfolio-website/static/js/453.2ddb282f.chunk.js",
     "static/media/headshot.jpg": "/portfolio-website/static/media/headshot.a4530e9ddab057e94a7f.jpg",
     "static/media/Database_Tables.png": "/portfolio-website/static/media/Database_Tables.fb6d8fe70349726c245b.png",
     "static/media/Bennett_Mangums_Portfolio.png": "/portfolio-website/static/media/Bennett_Mangums_Portfolio.0474a4627b9c68d31b83.png",
     "static/media/Larry Leader Organization Details.png": "/portfolio-website/static/media/Larry Leader Organization Details.735ed23f72b1a1bd2650.png",
     "static/media/Sally Student My Org Page.png": "/portfolio-website/static/media/Sally Student My Org Page.543244fc4beb4c7357d7.png",
-    "static/media/Resume.pdf": "/portfolio-website/static/media/Resume.f35e9ea2b0e36b3b4491.pdf",
+    "static/media/Bennett_Mangum_Resume_2024.pdf": "/portfolio-website/static/media/Bennett_Mangum_Resume_2024.c5131480b9021e5438df.pdf",
     "static/media/MT_Profile_Page.png": "/portfolio-website/static/media/MT_Profile_Page.b12844a5396db2d75aaa.png",
     "static/media/Larry Leader Edit Member Page.png": "/portfolio-website/static/media/Larry Leader Edit Member Page.cc0924babaa397af9e80.png",
     "static/media/MT_Feed_Page.png": "/portfolio-website/static/media/MT_Feed_Page.0682a830534f2101c57d.png",
@@ -19,11 +19,11 @@
     "static/media/twitter-logo.png": "/portfolio-website/static/media/twitter-logo.06e236c665e75ddf3ffe.png",
     "index.html": "/portfolio-website/index.html",
     "main.61ca3a95.css.map": "/portfolio-website/static/css/main.61ca3a95.css.map",
-    "main.22b95985.js.map": "/portfolio-website/static/js/main.22b95985.js.map",
+    "main.52963194.js.map": "/portfolio-website/static/js/main.52963194.js.map",
     "453.2ddb282f.chunk.js.map": "/portfolio-website/static/js/453.2ddb282f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61ca3a95.css",
-    "static/js/main.22b95985.js"
+    "static/js/main.52963194.js"
   ]
 }
